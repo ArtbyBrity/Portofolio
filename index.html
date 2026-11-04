@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>artbybrity | 브리띠의 일러스트 포트폴리오</title>
+  <meta name="description" content="artbybrity (브리띠) - Little Ideas, Big Adventures. 일러스트 포트폴리오와 일러스트·디자인 작업 의뢰 안내.">
+  <meta name="author" content="브리띠 (Brity)">
+  <meta name="theme-color" content="#FFF8EC">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="artbybrity | Little Ideas, Big Adventures">
+  <meta property="og:description" content="브리띠의 일러스트 포트폴리오 & 작업 의뢰">
+  <link rel="icon" type="image/svg+xml" href="assets/decorations/favicon.svg">
+
+  <!-- Fonts (free, no API key). 인터넷이 없어도 사이트는 기본 글꼴로 정상 표시됩니다. -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@500;700&family=Jua&family=Nunito:wght@400;600;700&family=Noto+Sans+KR:wght@400;500;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<a class="skip-link" href="#home" data-i18n="nav.home">홈</a>
+
+<!-- ============================ NAVIGATION ============================ -->
+<header class="site-header" id="top">
+  <nav class="nav" aria-label="Main">
+    <a class="brand" href="#home">
+      <img src="assets/decorations/star.svg" alt="" width="28" height="28">
+      <span>artbybrity</span>
+    </a>
+
+    <ul class="nav-links" id="navLinks">
+      <li><a href="#home" data-i18n="nav.home">홈</a></li>
+      <li><a href="#about" data-i18n="nav.about">작가 소개</a></li>
+      <li><a href="#gallery" data-i18n="nav.gallery">작품 갤러리</a></li>
+      <li><a href="#services" data-i18n="nav.services">작업 의뢰</a></li>
+      <li><a href="#process" data-i18n="nav.process">의뢰 방법</a></li>
+      <li><a href="#contact" data-i18n="nav.contact">문의</a></li>
+    </ul>
+
+    <div class="nav-tools">
+      <label class="lang-select-wrap">
+        <span class="visually-hidden" data-i18n="nav.language">언어 선택</span>
+        <select id="langSelect" class="lang-select" data-i18n-attr="aria-label:nav.language"></select>
+      </label>
+      <button class="hamburger" id="hamburger" type="button" aria-expanded="false" aria-controls="navLinks" data-i18n-attr="aria-label:nav.menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </nav>
+</header>
+
+<main>
+
+<!-- ============================ A. HOME / HERO ============================ -->
+<section class="hero" id="home">
+  <img class="deco float d1" src="assets/decorations/star.svg" alt="" aria-hidden="true">
+  <img class="deco float d2" src="assets/decorations/flower.svg" alt="" aria-hidden="true">
+  <img class="deco float d3" src="assets/decorations/cloud.svg" alt="" aria-hidden="true">
+  <img class="deco float d4" src="assets/decorations/star.svg" alt="" aria-hidden="true">
+
+  <div class="container hero-grid">
+    <div class="hero-text">
+      <p class="hero-brand">artbybrity</p>
+      <h1 data-i18n="hero.title">안녕하세요, 브리띠의 작은 예술 공간에 오신 것을 환영합니다!</h1>
+      <p class="slogan">Little Ideas, Big Adventures</p>
+      <p class="hero-intro" data-i18n="hero.intro">작은 아이디어에서 시작되는 특별한 그림 이야기. 브리띠의 시선으로 세상을 조금 더 귀엽고 따뜻하게 표현합니다.</p>
+      <div class="btn-row">
+        <a class="btn btn-primary" href="#gallery" data-i18n="hero.explore">작품 구경하기</a>
+        <a class="btn btn-secondary" href="#contact" data-i18n="hero.commission">작업 문의하기</a>
+      </div>
+    </div>
+
+    <figure class="hero-art">
+      <div class="polaroid">
+        <img src="assets/decorations/hero-illustration.svg" width="900" height="900" alt="" data-i18n-attr="alt:hero.imageAlt" fetchpriority="high">
+        <figcaption data-i18n="hero.sample">샘플 일러스트 - 실제 작품으로 교체해 주세요</figcaption>
+      </div>
+      <span class="tape" aria-hidden="true"></span>
+    </figure>
+  </div>
+</section>
+
+<!-- ============================ B. ABOUT ============================ -->
+<section class="section about" id="about">
+  <div class="container about-grid">
+    <figure class="avatar-wrap">
+      <div class="avatar-frame">
+        <img src="assets/profile/artist-profile.svg" width="400" height="400" alt="" data-i18n-attr="alt:about.avatarAlt" loading="lazy">
+      </div>
+      <figcaption class="mini-note" data-i18n="about.sample">샘플 아바타</figcaption>
+    </figure>
+    <div class="about-text">
+      <h2 class="section-title" data-i18n="about.title">작가 소개</h2>
+      <img class="squiggle" src="assets/decorations/doodle.svg" alt="" aria-hidden="true">
+      <div class="prose" data-i18n-paras="about.text"></div>
+    </div>
+  </div>
+</section>
+
+<!-- ============================ C. GALLERY ============================ -->
+<section class="section gallery" id="gallery">
+  <div class="container">
+    <h2 class="section-title center" data-i18n="gallery.title">작품 갤러리</h2>
+    <img class="squiggle center-block" src="assets/decorations/doodle.svg" alt="" aria-hidden="true">
+    <p class="section-sub center" data-i18n="gallery.subtitle"></p>
+    <p class="placeholder-notice" id="galleryNotice" data-i18n="gallery.notice" hidden></p>
+
+    <div class="filters" id="filters" role="group" data-i18n-attr="aria-label:gallery.filterLabel"></div>
+
+    <div class="gallery-grid" id="galleryGrid" aria-live="polite"></div>
+    <p class="gallery-empty" id="galleryEmpty" data-i18n="gallery.empty" hidden></p>
+  </div>
+</section>
+
+<!-- ============================ D. SERVICES ============================ -->
+<section class="section services" id="services">
+  <div class="container">
+    <h2 class="section-title center" data-i18n="services.title">일러스트 및 디자인 작업 의뢰</h2>
+    <img class="squiggle center-block" src="assets/decorations/doodle.svg" alt="" aria-hidden="true">
+    <p class="section-sub center" data-i18n="services.subtitle"></p>
+    <div class="prose center-prose" data-i18n-paras="services.text"></div>
+
+    <div class="service-grid">
+      <article class="card service-card">
+        <img src="assets/decorations/icon-event.svg" alt="" width="72" height="72" loading="lazy">
+        <h3 data-i18n="services.cards.0.title"></h3>
+        <p data-i18n="services.cards.0.desc"></p>
+      </article>
+      <article class="card service-card">
+        <img src="assets/decorations/icon-custom.svg" alt="" width="72" height="72" loading="lazy">
+        <h3 data-i18n="services.cards.1.title"></h3>
+        <p data-i18n="services.cards.1.desc"></p>
+      </article>
+      <article class="card service-card">
+        <img src="assets/decorations/icon-decor.svg" alt="" width="72" height="72" loading="lazy">
+        <h3 data-i18n="services.cards.2.title"></h3>
+        <p data-i18n="services.cards.2.desc"></p>
+      </article>
+      <article class="card service-card">
+        <img src="assets/decorations/icon-gift.svg" alt="" width="72" height="72" loading="lazy">
+        <h3 data-i18n="services.cards.3.title"></h3>
+        <p data-i18n="services.cards.3.desc"></p>
+      </article>
+    </div>
+
+    <div class="btn-row center-row">
+      <a class="btn btn-primary" href="#contact" data-i18n="services.cta">작업 문의하기</a>
+    </div>
+  </div>
+</section>
+
+<!-- ============================ E. PROCESS ============================ -->
+<section class="section process" id="process">
+  <div class="container">
+    <h2 class="section-title center" data-i18n="process.title">작업 의뢰 방법</h2>
+    <img class="squiggle center-block" src="assets/decorations/doodle.svg" alt="" aria-hidden="true">
+
+    <ol class="steps">
+      <li class="step">
+        <span class="step-num"><small data-i18n="process.stepLabel">STEP</small>1</span>
+        <h3 data-i18n="process.steps.0.title"></h3>
+        <p data-i18n="process.steps.0.desc"></p>
+      </li>
+      <li class="step">
+        <span class="step-num"><small data-i18n="process.stepLabel">STEP</small>2</span>
+        <h3 data-i18n="process.steps.1.title"></h3>
+        <p data-i18n="process.steps.1.desc"></p>
+      </li>
+      <li class="step">
+        <span class="step-num"><small data-i18n="process.stepLabel">STEP</small>3</span>
+        <h3 data-i18n="process.steps.2.title"></h3>
+        <p data-i18n="process.steps.2.desc"></p>
+      </li>
+      <li class="step">
+        <span class="step-num"><small data-i18n="process.stepLabel">STEP</small>4</span>
+        <h3 data-i18n="process.steps.3.title"></h3>
+        <p data-i18n="process.steps.3.desc"></p>
+      </li>
+    </ol>
+
+    <p class="note-box" data-i18n="process.note">작업 가능 여부와 일정은 프로젝트의 내용에 따라 달라질 수 있습니다.</p>
+  </div>
+</section>
+
+<!-- ============================ F. CONTACT ============================ -->
+<section class="section contact" id="contact">
+  <div class="container contact-wrap">
+    <h2 class="section-title center" data-i18n="contact.title">함께 작업하고 싶으신가요?</h2>
+    <img class="squiggle center-block" src="assets/decorations/doodle.svg" alt="" aria-hidden="true">
+    <div class="prose center-prose" data-i18n-paras="contact.text"></div>
+
+    <div class="card contact-card">
+      <dl class="contact-list">
+        <div><dt data-i18n="contact.artist">작가</dt><dd data-i18n="contact.artistValue">브리띠 (Brity)</dd></div>
+        <div><dt data-i18n="contact.brand">브랜드</dt><dd>artbybrity</dd></div>
+        <div><dt data-i18n="contact.phone">전화</dt><dd><a href="tel:01033316780">010-3331-6780</a></dd></div>
+        <div><dt data-i18n="contact.instagram">인스타그램</dt><dd><a href="https://www.instagram.com/artbybrity/" target="_blank" rel="noopener noreferrer">@artbybrity</a></dd></div>
+        <div><dt data-i18n="contact.email">이메일</dt><dd><a href="mailto:femleeb@gmail.com">femleeb@gmail.com</a></dd></div>
+        <div><dt data-i18n="contact.location">위치</dt><dd data-i18n="contact.locationValue">남해, 대한민국</dd></div>
+      </dl>
+      <div class="btn-row center-row">
+        <a class="btn btn-primary" id="emailBtn" href="mailto:femleeb@gmail.com" data-i18n="contact.emailBtn">이메일로 문의하기</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+</main>
+
+<!-- ============================ FOOTER ============================ -->
+<footer class="site-footer">
+  <img class="deco-foot f1" src="assets/decorations/star.svg" alt="" aria-hidden="true">
+  <img class="deco-foot f2" src="assets/decorations/flower.svg" alt="" aria-hidden="true">
+  <img class="deco-foot f3" src="assets/decorations/cloud.svg" alt="" aria-hidden="true">
+  <div class="container footer-inner">
+    <p class="footer-brand">artbybrity</p>
+    <p class="slogan small">Little Ideas, Big Adventures</p>
+    <p class="copy" data-i18n="footer.rights">© 2026 artbybrity. All rights reserved.</p>
+    <a class="to-top" href="#top" data-i18n="footer.top">맨 위로</a>
+  </div>
+</footer>
+
+<!-- ============================ LIGHTBOX ============================ -->
+<div class="lightbox" id="lightbox" role="dialog" aria-modal="true" aria-hidden="true" hidden>
+  <button class="lb-btn lb-close" id="lbClose" type="button" data-i18n-attr="aria-label:gallery.close">&times;</button>
+  <button class="lb-btn lb-prev" id="lbPrev" type="button" data-i18n-attr="aria-label:gallery.prev">&#8249;</button>
+  <button class="lb-btn lb-next" id="lbNext" type="button" data-i18n-attr="aria-label:gallery.next">&#8250;</button>
+  <figure class="lb-figure">
+    <img id="lbImg" src="" alt="">
+    <figcaption>
+      <span class="lb-cat" id="lbCat"></span>
+      <strong id="lbTitle"></strong>
+      <span id="lbCaption"></span>
+      <em id="lbDate"></em>
+    </figcaption>
+  </figure>
+</div>
+
+<script src="portfolio-data.js"></script>
+<script src="translations.js"></script>
+<script src="script.js"></script>
+</body>
+</html>
