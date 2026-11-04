@@ -42,7 +42,7 @@ const CATEGORIES = [
 const ARTWORKS = [
   /* ---- SAMPLE PLACEHOLDERS: 아래 6개는 예시용 가짜 그림입니다. 실제 작품으로 교체하세요. ---- */
   {
-    image: "assets/artworks/artwork-01.svg",
+    image: "assets/artworks/art1.jpg",
     title: { ko: "작은 꿈 (샘플)", en: "A Little Dream (sample)", id: "Mimpi Kecil (contoh)", vi: "Giấc mơ nhỏ (mẫu)" },
     category: "Illustration",
     caption: {
@@ -60,16 +60,8 @@ const ARTWORKS = [
     date: "2026",
     placeholder: true
   },
-   {
-     image: "assets/artworks/art1.jpg",
-     title:   { ko: "작은 꿈", en: "A Little Dream", id: "Mimpi Kecil", vi: "Giấc mơ nhỏ" },
-     category: "Illustration",
-     caption: { ko: "...", en: "...", id: "...", vi: "..." },
-     alt:     { ko: "...", en: "...", id: "...", vi: "..." },   // 선택 (이미지 설명)
-     date: "2026"
-   },
   {
-    image: "assets/artworks/artwork-02.svg",
+    image: "assets/artworks/art2.jpg",
     title: { ko: "꽃밭 산책 (샘플)", en: "Flower Field Walk (sample)", id: "Jalan di Ladang Bunga (contoh)", vi: "Dạo bước vườn hoa (mẫu)" },
     category: "Digital Art",
     caption: {
@@ -88,7 +80,7 @@ const ARTWORKS = [
     placeholder: true
   },
   {
-    image: "assets/artworks/artwork-03.svg",
+    image: "assets/artworks/art3.jpg",
     title: { ko: "별이 쏟아지는 밤 (샘플)", en: "A Night of Falling Stars (sample)", id: "Malam Bintang Berjatuhan (contoh)", vi: "Đêm sao rơi (mẫu)" },
     category: "Personal Projects",
     caption: {
@@ -107,7 +99,7 @@ const ARTWORKS = [
     placeholder: true
   },
   {
-    image: "assets/artworks/artwork-04.svg",
+    image: "assets/artworks/art4.jpg",
     title: { ko: "작은 친구들 (샘플)", en: "Little Friends (sample)", id: "Teman-teman Kecil (contoh)", vi: "Những người bạn nhỏ (mẫu)" },
     category: "Character Design",
     caption: {
@@ -126,7 +118,7 @@ const ARTWORKS = [
     placeholder: true
   },
   {
-    image: "assets/artworks/artwork-05.svg",
+    image: "assets/artworks/art5.jpg",
     title: { ko: "축제의 바다 (샘플)", en: "Festival Sea (sample)", id: "Laut Festival (contoh)", vi: "Biển lễ hội (mẫu)" },
     category: "Event Artwork",
     caption: {
@@ -145,7 +137,7 @@ const ARTWORKS = [
     placeholder: true
   },
   {
-    image: "assets/artworks/artwork-06.svg",
+    image: "assets/artworks/art6.jpg",
     title: { ko: "버섯 마을 (샘플)", en: "Mushroom Village (sample)", id: "Desa Jamur (contoh)", vi: "Làng nấm (mẫu)" },
     category: "Traditional Art",
     caption: {
