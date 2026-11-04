@@ -60,6 +60,14 @@ const ARTWORKS = [
     date: "2026",
     placeholder: true
   },
+   {
+     image: "assets/artworks/art1.jpg",
+     title:   { ko: "작은 꿈", en: "A Little Dream", id: "Mimpi Kecil", vi: "Giấc mơ nhỏ" },
+     category: "Illustration",
+     caption: { ko: "...", en: "...", id: "...", vi: "..." },
+     alt:     { ko: "...", en: "...", id: "...", vi: "..." },   // 선택 (이미지 설명)
+     date: "2026"
+   },
   {
     image: "assets/artworks/artwork-02.svg",
     title: { ko: "꽃밭 산책 (샘플)", en: "Flower Field Walk (sample)", id: "Jalan di Ladang Bunga (contoh)", vi: "Dạo bước vườn hoa (mẫu)" },
